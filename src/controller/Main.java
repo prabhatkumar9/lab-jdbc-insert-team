@@ -21,12 +21,12 @@ public class Main{
      BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
      
      System.out.println("Enter the cityId :  ");
-     cityId = Long.parseLong(br.readLine().trim());
+     cityId = Long.parseLong(br.readLine());
      System.out.println("Enter the city name :  ");
      cityName=br.readLine();
      
      System.out.println("Enter team id :  ");
-     teamid = Integer.parseInt(br.readLine().trim());
+     teamid = Integer.parseInt(br.readLine());
      System.out.println("Enter team name:  ");
      name=br.readLine();
      System.out.println("Enter coach name:  ");
